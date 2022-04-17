@@ -1,0 +1,19 @@
+{
+    "name": "tapezero",
+    "symbol": "zero",
+    "image": "0.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "0.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "7urfEAu4xHYPGkC3kdDMiRLXt3zZ1g8toPfTmC3D2rHT",
+          "share": 100
+        }
+      ]
+    }
+  }

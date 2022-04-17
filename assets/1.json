@@ -1,0 +1,19 @@
+{
+    "name": "tapeone",
+    "symbol": "one",
+    "image": "1.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "1.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "7urfEAu4xHYPGkC3kdDMiRLXt3zZ1g8toPfTmC3D2rHT",
+          "share": 100
+        }
+      ]
+    }
+  }
