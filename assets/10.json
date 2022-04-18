@@ -1,11 +1,11 @@
 {
-    "name": "1",
-    "symbol": "1",
-    "image": "1.png",
+    "name": "10",
+    "symbol": "10",
+    "image": "10.png",
     "properties": {
       "files": [
         {
-          "uri": "1.png",
+          "uri": "10.png",
           "type": "image/png"
         }
       ],

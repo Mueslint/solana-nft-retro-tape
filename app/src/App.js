@@ -1,16 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import twitterLogo from './assets/twitter-logo.svg';
+import CandyMachine from './CandyMachine';
 
-// Constants
 const TWITTER_HANDLE = '_buildspace';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 
 const App = () => {
-  // State
   const [walletAddress, setWalletAddress] = useState(null);
 
-  // Actions
   const checkIfWalletIsConnected = async () => {
     try {
       const { solana } = window;
@@ -68,11 +66,30 @@ const App = () => {
     <div className="App">
       <div className="container">
         <div className="header-container">
-          <p className="header">🍭 Candy Drop</p>
+          <div
+            style={{display:'flex', width:'100%', justifyContent:'space-evenly', paddingBottom:'2%'}}
+          >
+          <img 
+            width="10%"
+            src="images/tape0.png" 
+            alt="" 
+          />
+          <img 
+            width="10%"
+            src="images/tape1.png" 
+            alt="" 
+          />
+          <img 
+            width="10%"
+            src="images/tape2.png" 
+            alt="" 
+          />
+          </div>
+          <p className="header">Radio Tape Drop</p>
           <p className="sub-text">NFT drop machine with fair mint</p>
-          {/* Add the condition to show this only if we don't have a wallet address */}
           {!walletAddress && renderNotConnectedContainer()}
         </div>
+        {walletAddress && <CandyMachine walletAddress={window.solana} />}
         <div className="footer-container">
           <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
           <a
