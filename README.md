@@ -16,6 +16,7 @@ Nice additions planned:
 - [ ] finish uploading 30+ others variations of the NFT (handmade variations 😢), waiting for devnet to be reachable after they updates it...
 - [ ] update the drop date
 - [ ] deploy the app on Vercel
+- [ ] add rarity and make a basic trait system: seems huge work ^^
 
 
 <img width="1386" alt="Capture d’écran 2022-04-18 à 12 56 03" src="https://user-images.githubusercontent.com/23119955/163799615-51e42e34-51a7-46d3-a4d2-af30ad6507ad.png">
