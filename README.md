@@ -13,9 +13,8 @@ This is a project to learn how NFT are managed on Solana based on the awesome tu
 ### Overlook 👀
 
 Nice additions planned:
-- [ ] finish uploading 30+ others variations of the NFT (handmade variations 😢), waiting for devnet to be reachable after they updates it...
-- [ ] update the drop date
-- [ ] deploy the app on Vercel
+- [x] finish uploading 10+ others variations of the NFT (handmade variations 😢), waiting for devnet to be reachable after they updates it...
+- [x] deploy the app on Vercel
 - [ ] add rarity and make a basic trait system: seems huge work ^^
 
 
