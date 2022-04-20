@@ -1,15 +1,24 @@
-# buildspace Solana NFT Drop Project
+# Solana NFT Drop Project
+
 ### Welcome 👋
-To get started with this course, clone this repo and follow these commands:
+This is a project to learn how NFT are managed on Solana based on the awesome tutorial made by buildspace! 
 
-1. cd into the `app` folder
-2. Run `npm install` at the root of your directory
-3. Run `npm run start` to start the project
-4. Start coding!
+### Key learnings
+- As everything is an account in Solana, so does are NFTs 🖼️
+- A `Candy Machine` program is deployed on Solana to distribute the deployed NFTs (we used `metaplex` ecosystem)
+- Client side and Blockchain side of RPC can talk once IDL has been fetched: It is a standard done so they can talk as they could be/are written in different languages
+- You have to pay rents for Accounts to validator to hold data, when deploying NFT we ask for how much lamports it cost to be exempted of rent so that our NFT doesn't disappear in the wild haha
+- Solana can be considered a little bit like a distributed file system where files (accounts) are stored/callabled at a dedicated path (address)
 
-### What is the .vscode Folder?
-If you use VSCode to build your app, we included a list of suggested extensions that will help you build this project! Once you open this project in VSCode, you will see a popup asking if you want to download the recommended extensions :).
+### Overlook 👀
 
-### Questions?
-Have some questions make sure you head over to your [buildspace Dashboard](https://app.buildspace.so/projects/CO77556be5-25e9-49dd-a799-91a2fc29520e) and link your Discord account so you can get access to helpful channels and your instructor!
+Nice additions planned:
+- [ ] finish uploading 30+ others variations of the NFT (handmade variations 😢), waiting for devnet to be reachable after they updates it...
+- [ ] update the drop date
+- [ ] deploy the app on Vercel
+- [ ] add rarity and make a basic trait system: seems huge work ^^
+
+
+<img width="1386" alt="Capture d’écran 2022-04-18 à 12 56 03" src="https://user-images.githubusercontent.com/23119955/163799615-51e42e34-51a7-46d3-a4d2-af30ad6507ad.png">
+
 
