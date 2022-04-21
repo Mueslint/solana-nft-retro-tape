@@ -1,6 +1,6 @@
 # Solana NFT Drop Project
 
-[Try the app and see your NFT, mint it right now 🚀](https://vercel.com/mueslint/solana-nft-retro-tape)
+[Try the app and see your NFT, mint it right now 🚀](https://solana-nft-retro-tape.vercel.app/)
 
 ### Welcome 👋
 This is a project to learn how NFT are managed on Solana based on the awesome tutorial made by buildspace! 
